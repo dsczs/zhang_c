@@ -10,6 +10,6 @@ set(SOURCE_FILES
         cmake-build-debug/zhang_c.cbp
         cmake-build-debug/zhang_c.exe
         CMakeLists.txt
-        test/test.c)
+        datastruct/linkTable/ArrayList.c)
 
 add_executable(zhang_c ${SOURCE_FILES})
