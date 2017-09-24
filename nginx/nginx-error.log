@@ -1,3 +1,9 @@
 2017/09/24 11:46:40 [notice] 28322#0: signal process started
 2017/09/24 11:48:08 [notice] 28406#0: signal process started
 2017/09/24 11:48:30 [notice] 36359#0: signal process started
+2017/09/24 11:52:49 [notice] 86106#0: signal process started
+2017/09/24 14:39:14 [notice] 88369#0: signal process started
+2017/09/24 14:40:57 [notice] 88409#0: signal process started
+2017/09/24 14:42:57 [notice] 88445#0: signal process started
+2017/09/24 14:45:44 [emerg] 88469#0: "proxy_pass" directive is not allowed here in /usr/local/nginx/nginx.conf:45
+2017/09/24 14:46:15 [notice] 88478#0: signal process started
