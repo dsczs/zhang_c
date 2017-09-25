@@ -34,7 +34,8 @@ rm -rf ${nginx:0:12}
 tar xf $nginx
 cp -R ${openssl:0:14} ${nginx:0:12}
 cd ${nginx:0:12}
-./configure --prefix=/usr/local/nginx --user=www --group=www --sbin-path=/usr/local/nginx/sbin --with-http_stub_status_module --conf-path=/usr/local/nginx/nginx.conf --pid-path=/usr/local/nginx/nginx.pid --error-log-path=/usr/local/nginx/nginx-error.log  --with-http_ssl_module --with-pcre=/home/lamp_linux/pcre-8.32 --with-zlib=/home/lamp_linux/zlib-1.2.8 --with-openssl=/home/lamp_linux/openssl-1.0.1r && make && make install
+
+./configure --prefix=/usr/local/nginx_windows --user=www --group=www --sbin-path=/usr/local/nginx_windows/sbin --with-http_stub_status_module --conf-path=/usr/local/nginx_windows/nginx.conf --pid-path=/usr/local/nginx_windows/nginx.pid --error-log-path=/usr/local/nginx_windows/nginx-error.log  --with-http_ssl_module --with-pcre=/home/lamp_linux/pcre-8.32 --with-zlib=/home/lamp_linux/zlib-1.2.8 --with-openssl=/home/lamp_linux/openssl-1.0.1r && make && make install
 
 --with-pcre=/home/soft/lamp_linux/${pcre:0:9} --with-zlib=/home/soft/lamp_linux/${zlib:0:10}
 --with-openssl=/home/soft/lamp_linux/${openssl:0:14} && make && make install
