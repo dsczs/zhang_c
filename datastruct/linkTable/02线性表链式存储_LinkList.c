@@ -2,7 +2,6 @@
 #include "string.h"
 #include "ctype.h"
 #include "stdlib.h"
-#include "io.h"
 #include "math.h"
 #include "time.h"
 
@@ -25,8 +24,8 @@ Status visit(ElemType c) {
 typedef struct Node {
     ElemType data;
     struct Node *next;
-} Node;
-typedef struct Node *LinkList; /* 定义LinkList */
+} Node,*LinkList;
+
 
 /* 初始化顺序线性表 */
 Status InitList(LinkList *L) {
