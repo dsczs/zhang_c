@@ -15,7 +15,7 @@ set(SOURCE_FILES
         glibc
         datastruct
 
-        datastruct/第3章链表/04双向链表.c)
+        datastruct/第3章链表/04双向链表.c datastruct/第3章链表/05循环链表.c)
 
 add_executable(zhang_c ${SOURCE_FILES})
 
