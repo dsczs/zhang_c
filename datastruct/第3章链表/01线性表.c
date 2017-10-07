@@ -15,7 +15,6 @@
 typedef int Status;          /* Status是函数的类型,其值是函数结果状态代码，如OK等 */
 typedef int ElemType;        /* ElemType类型根据实际情况而定，这里假设为int */
 
-
 Status visit(ElemType c) {
     printf("%d ", c);
     return OK;
