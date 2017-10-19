@@ -15,5 +15,6 @@ set(SOURCE_FILES main.c
         nginx-1.13.5
         redis-3.2.11
         麦子学院进程教程
+        lua
         )
 add_executable(c1 ${SOURCE_FILES})
