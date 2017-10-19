@@ -5,5 +5,5 @@
 -- Time: 22:32
 -- To change this template use File | Settings | File Templates.
 --
-
+print("hello")
 
